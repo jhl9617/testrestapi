@@ -19,5 +19,5 @@ public class Menu {
     private String taste;
     private String price;
     //주석임
-
+//테스트
 }
