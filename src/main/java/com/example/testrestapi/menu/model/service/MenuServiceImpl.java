@@ -23,4 +23,5 @@ public class MenuServiceImpl implements MenuService{
         return menuDAO.selectMenuByfoodType(map);
     }
 
+    //서비스 impl 주석추가
 }
