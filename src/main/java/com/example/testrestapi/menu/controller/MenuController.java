@@ -15,6 +15,7 @@ import java.util.Map;
 @Controller("menuController")
 public class MenuController {
 
+    //컨트롤러 주석 (테스트용)
     private Logger logger = LoggerFactory.getLogger(getClass());
 
     @Autowired
