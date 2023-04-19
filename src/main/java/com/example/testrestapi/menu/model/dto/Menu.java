@@ -18,5 +18,6 @@ public class Menu {
     private String foodtype;
     private String taste;
     private String price;
+    //주석임
 
 }
