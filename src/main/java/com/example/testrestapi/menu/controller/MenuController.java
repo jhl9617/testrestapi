@@ -26,7 +26,7 @@ public class MenuController {
         return "menu/menu";
     }
 
-
+    //commit
     @RequestMapping(value="/menu/menu", method= RequestMethod.GET)
     @ResponseBody
     public List<Menu> menu(@RequestParam("foodType")String foodType,

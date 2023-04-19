@@ -5,7 +5,7 @@
         select * from menu
         where foodType = #{foodType} and taste = #{taste}
     </select>
-
+<!--test-->
     <select id="selectMenuByfoodType" resultType="Menu">
         select * from menu
         where foodType = #{foodType}

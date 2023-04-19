@@ -15,6 +15,7 @@ public class MenuDAOImpl implements MenuDAO {
     @Autowired
     private SqlSessionTemplate sqlSession;
 
+    //메뉴
     @Override
     public List<Menu> selectMenuRecommendation(Map<String, String> map) {
         return sqlSession.selectList("menu.selectMenuRecommendation", map);
