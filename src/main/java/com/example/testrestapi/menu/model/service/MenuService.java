@@ -11,4 +11,6 @@ public interface MenuService {
 
     List<Menu> selectMenuRecommendation(Map<String, String> map);
     List<Menu> selectMenuByfoodType(Map<String, String> map);
+
+    //서비스 주석 추가
 }
